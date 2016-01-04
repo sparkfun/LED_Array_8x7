@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -224,7 +224,7 @@
 <wire x1="3.81" y1="0.762" x2="24.13" y2="0.762" width="0.254" layer="22"/>
 <wire x1="3.81" y1="0.508" x2="24.13" y2="0.508" width="0.254" layer="22"/>
 <wire x1="3.81" y1="0.254" x2="24.13" y2="0.254" width="0.254" layer="22"/>
-<text x="13.97" y="37.719" size="1.27" layer="21" font="vector" ratio="15" align="center">LED Array 8x7</text>
+<text x="13.716" y="37.719" size="1.27" layer="21" font="vector" ratio="15" align="center">LED Array 8x7</text>
 </plain>
 <libraries>
 <library name="SparkFun-LED">
@@ -1796,7 +1796,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="DIO-00819" x="6.35" y="12.7" size="1.778" layer="27" rot="R225" display="off"/>
 </element>
 <element name="FID1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="24.765" y="5.715"/>
-<element name="FID2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.35" y="38.735"/>
+<element name="FID2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.35" y="41.91"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="" x="-11.43" y="-26.67" smashed="yes">
 <attribute name="VERSION" value="v11" x="25.4" y="5.588" size="1.778" layer="16" font="vector" ratio="15" rot="SMR315" align="center"/>
 <attribute name="DESIGNER" value="Shawn Hymel" x="20.32" y="-26.67" size="1.778" layer="51"/>
@@ -2748,32 +2748,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </signal>
 </signals>
 <errors>
-<approved hash="3,16,71e273e073e071e2"/>
-<approved hash="3,16,d6fed4fcd4fcd6fe"/>
-<approved hash="3,16,ef48134a14b4174b"/>
-<approved hash="3,16,65fd67ff67ff65fd"/>
-<approved hash="3,16,8f418d438d438f41"/>
-<approved hash="3,16,6701650365036701"/>
-<approved hash="3,16,f134f336f336f134"/>
-<approved hash="3,16,7eb87cba7cba7eb8"/>
-<approved hash="3,16,157e177c177c157e"/>
-<approved hash="3,16,2ac8d6cad6b4d4c9"/>
-<approved hash="3,16,6bfc69fe69fe6bfc"/>
-<approved hash="3,16,fe37fc35fc35fe37"/>
-<approved hash="3,16,307e327c327c307e"/>
-<approved hash="3,16,bb49454944b5444b"/>
-<approved hash="4,1,b4108c367b2092fb"/>
-<approved hash="4,1,e20a5a375b581298"/>
-<approved hash="4,1,d065203c3b252a81"/>
-<approved hash="4,1,1e406e33db240aa9"/>
-<approved hash="4,16,b4108c367b2092fb"/>
-<approved hash="4,16,e20a5a375b581298"/>
-<approved hash="4,16,d065203c3b252a81"/>
-<approved hash="4,16,1e406e33db240aa9"/>
-<approved hash="3,16,6274148a148c6272"/>
-<approved hash="3,16,d3c4d5c6d5caeccc"/>
-<approved hash="3,16,b0fa7706770bb0f7"/>
-<approved hash="3,16,bfa9b9a7bbac87ad"/>
 <approved hash="4,1,0497edd28ce3e1a1"/>
 <approved hash="4,1,56f33bcadafcb3bd"/>
 <approved hash="4,1,60ea81a62098fdda"/>
