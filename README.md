@@ -1,24 +1,41 @@
-Interactive Badges -Charlieplexed 8x7 LED Array
-===============================================
+SparkFun LED Array 8x7
+======================
 
-Charlieplexed 8x7 LED array.
+![SparkFun LED Array - 8x7](https://cdn.sparkfun.com/r/188-188/assets/parts/1/1/3/6/9/13795-01.jpg)
 
-Please check out the [BadgerHack Tutorial](http://sfe.io/t349) for more information. 
-The accompanying badges' information can be found [here](https://github.com/sparkfun/Interactive_Badges/tree/sxsw2015).
-The BadgerHack Demos are available [here](https://github.com/sparkfun/BadgerHack_Demos).
+[*SparkFun LED Array - 8x7*](https://www.sparkfun.com/products/13795)
 
- Repository Contents
+56 Charlieplexed LEDs arranged in an 8x7 array. The board requires 8 pins, and the library supports any ATmega 328-based Arduino.
+
+Repository Contents
 -------------------
 
-* **/Hardware** - All Eagle design files (.brd, .sch)
-* **/Libraries** - Example Arduino Library.
-* **/Production** - Test bed files and production panel files
+* **/Hardware** - Eagle design files (.brd, .sch)
+* **/Libraries** - Libraries for use with the SparkFun LED Array - 8x7
+* **/Production** - Production panel files (.brd)
 
+Documentation
+--------------
+* **[Library](https://github.com/sparkfun/SparkFun_LED_Array_8x7_Arduino_Library)** - Arduino library for the LED Array 8x7.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-led-array-8x7-hookup-guide)** - Basic hookup guide for the LED Array 8x7.
+
+Product Versions
+----------------
+* [COM-13795](https://www.sparkfun.com/products/13795)- Basic part and short description here
+
+Version History
+---------------
+* [v_H1.1_L1.3.0](https://github.com/sparkfun/LED_Array_8x7/tree/v_H1.1_L1.3.0) - Hardware version 1.1, library version 1.3.0. Compatible with Arduino 1.6+
 
 License Information
 -------------------
 
-The hardware is released under [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
-The code is beerware; if you see me (or any other SparkFun employee) at the local, and you've found our code helpful, please buy us a round!
+This product is _**open source**_! 
+
+Please review the LICENSE.md file for license information. 
+
+If you have any questions or concerns on licensing, please contact techsupport@sparkfun.com.
 
 Distributed as-is; no warranty is given.
+
+- Your friends at SparkFun.
