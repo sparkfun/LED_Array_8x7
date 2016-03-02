@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -36,7 +36,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
@@ -90,7 +90,10 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="no"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="no"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -225,6 +228,8 @@
 <wire x1="3.81" y1="0.508" x2="24.13" y2="0.508" width="0.254" layer="22"/>
 <wire x1="3.81" y1="0.254" x2="24.13" y2="0.254" width="0.254" layer="22"/>
 <text x="13.716" y="37.719" size="1.27" layer="21" font="vector" ratio="15" align="center">LED Array 8x7</text>
+<text x="25.4" y="5.588" size="1.778" layer="16" font="vector" ratio="15" rot="MR135" align="center">v11</text>
+<text x="12.7" y="-21.59" size="1.778" layer="51" font="vector" ratio="15">Shawn Hymel</text>
 </plain>
 <libraries>
 <library name="SparkFun-LED">
@@ -303,7 +308,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.1">
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="0.81" y="1.4"/>
 <vertex x="0.81" y="1.34"/>
 <vertex x="0.83" y="1.29"/>
@@ -417,7 +422,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.71" y="1.4"/>
 <vertex x="0.76" y="1.4"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="2.91" y="1.4"/>
 <vertex x="2.94" y="1.48"/>
 <vertex x="2.95" y="1.56"/>
@@ -427,7 +432,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="3.3" y="1.36"/>
 <vertex x="3.25" y="1.24"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="3.25" y="1.24"/>
 <vertex x="3.19" y="1.13"/>
 <vertex x="3.1" y="1.04"/>
@@ -530,7 +535,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="2.88" y="1.33"/>
 <vertex x="2.91" y="1.4"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="3.93" y="1.75"/>
 <vertex x="4.02" y="1.76"/>
 <vertex x="4.11" y="1.77"/>
@@ -547,7 +552,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="4.03" y="1.54"/>
 <vertex x="4.01" y="1.54"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="4.01" y="1.54"/>
 <vertex x="3.98" y="1.53"/>
 <vertex x="3.96" y="1.52"/>
@@ -806,7 +811,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="3.84" y="1.74"/>
 <vertex x="3.93" y="1.75"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="5" y="2.29"/>
 <vertex x="5.05" y="2.3"/>
 <vertex x="5.09" y="2.31"/>
@@ -888,7 +893,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="5" y="1.95"/>
 <vertex x="5" y="2.12"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="6.06" y="2.68"/>
 <vertex x="6.45" y="2.89"/>
 <vertex x="6.45" y="1.85"/>
@@ -902,7 +907,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="6.45" y="0.94"/>
 <vertex x="6.06" y="0.94"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="7.7" y="2.1"/>
 <vertex x="7.65" y="2.1"/>
 <vertex x="7.6" y="2.1"/>
@@ -1032,7 +1037,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="7.7" y="1.81"/>
 <vertex x="7.7" y="1.95"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="9.79" y="0.94"/>
 <vertex x="9.74" y="0.94"/>
 <vertex x="9.7" y="0.94"/>
@@ -1131,7 +1136,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="9.79" y="1.29"/>
 <vertex x="9.79" y="1.12"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="10" y="2.36"/>
 <vertex x="10.05" y="2.36"/>
 <vertex x="10.1" y="2.36"/>
@@ -1230,7 +1235,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="10" y="2"/>
 <vertex x="10" y="2.18"/>
 </polygon>
-<polygon width="0.01" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="8.25" y="4.78"/>
 <vertex x="8.25" y="4.76"/>
 <vertex x="8.25" y="4.73"/>
@@ -1370,10 +1375,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="0603-RES">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-1.6002" y1="0.6858" x2="1.6002" y2="0.6858" width="0.0508" layer="39"/>
+<wire x1="1.6002" y1="0.6858" x2="1.6002" y2="-0.6858" width="0.0508" layer="39"/>
+<wire x1="1.6002" y1="-0.6858" x2="-1.6002" y2="-0.6858" width="0.0508" layer="39"/>
+<wire x1="-1.6002" y1="-0.6858" x2="-1.6002" y2="0.6858" width="0.0508" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
@@ -1383,7 +1388,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<rectangle x1="-0.2286" y1="-0.381" x2="0.2286" y2="0.381" layer="21"/>
+<rectangle x1="-0.1905" y1="-0.381" x2="0.1905" y2="0.381" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1797,42 +1802,39 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="FID1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="24.765" y="5.715"/>
 <element name="FID2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.35" y="41.91"/>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="" x="-11.43" y="-26.67" smashed="yes">
-<attribute name="VERSION" value="v11" x="25.4" y="5.588" size="1.778" layer="16" font="vector" ratio="15" rot="SMR315" align="center"/>
-<attribute name="DESIGNER" value="Shawn Hymel" x="20.32" y="-26.67" size="1.778" layer="51"/>
-</element>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-19.05" y="-21.59" smashed="yes"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="21.082" y="40.767"/>
 <element name="R1" library="SparkFun-Resistors" package="0603-RES" value="82" x="5.08" y="5.08" rot="R90">
 <attribute name="PROD_ID" value="RES-12311" x="5.08" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="82" x="5.08" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="820K" x="5.08" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R2" library="SparkFun-Resistors" package="0603-RES" value="82" x="7.62" y="5.08" rot="R90">
 <attribute name="PROD_ID" value="RES-12311" x="7.62" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="82" x="7.62" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="820K" x="7.62" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R3" library="SparkFun-Resistors" package="0603-RES" value="82" x="10.16" y="5.08" rot="R90">
 <attribute name="PROD_ID" value="RES-12311" x="10.16" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="82" x="10.16" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="820K" x="10.16" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R4" library="SparkFun-Resistors" package="0603-RES" value="82" x="12.7" y="5.08" rot="R90">
 <attribute name="PROD_ID" value="RES-12311" x="12.7" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="82" x="12.7" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="820K" x="12.7" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R5" library="SparkFun-Resistors" package="0603-RES" value="82" x="15.24" y="5.08" rot="R90">
 <attribute name="PROD_ID" value="RES-12311" x="15.24" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="82" x="15.24" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="820K" x="15.24" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R6" library="SparkFun-Resistors" package="0603-RES" value="82" x="17.78" y="5.08" rot="R90">
 <attribute name="PROD_ID" value="RES-12311" x="17.78" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="82" x="17.78" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="820K" x="17.78" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R7" library="SparkFun-Resistors" package="0603-RES" value="82" x="20.32" y="5.08" rot="R90">
 <attribute name="PROD_ID" value="RES-12311" x="20.32" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="82" x="20.32" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="820K" x="20.32" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R8" library="SparkFun-Resistors" package="0603-RES" value="82" x="22.86" y="5.08" rot="R90">
 <attribute name="PROD_ID" value="RES-12311" x="22.86" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="82" x="22.86" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="820K" x="22.86" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="STANDOFF1" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="25.4" y="40.64" rot="R90"/>
 <element name="STANDOFF2" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="2.54" y="40.64" rot="R90"/>
