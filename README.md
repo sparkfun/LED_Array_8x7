@@ -25,6 +25,7 @@ Product Versions
 
 Version History
 ---------------
+* [v_H1.1_L1.3.1](https://github.com/sparkfun/LED_Array_8x7/tree/v_H1.1_L1.3.1) - Hardware version 1.1, library version 1.3.1. Compatible with Arduino 1.6+
 * [v_H1.1_L1.3.0](https://github.com/sparkfun/LED_Array_8x7/tree/v_H1.1_L1.3.0) - Hardware version 1.1, library version 1.3.0. Compatible with Arduino 1.6+
 
 License Information
